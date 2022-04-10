@@ -22,14 +22,14 @@ body{
 .header_link{
     color: #9b3535;
     text-decoration: none;
-    1background: #e1e1e1;
-    1border-radius: 10px 10px 10px 10px;
-    1padding: 6px;
-    1box-shadow: 0 0 3px #444;
+    /*background: #e1e1e1;*/
+    /*border-radius: 10px 10px 10px 10px;*/
+    /*padding: 6px;*/
+    /*box-shadow: 0 0 3px #444;*/
 }
 .header_list a:hover{
     color: gray;
-    1background: white;
+    /*background: white;*/
 }
 .header_item{
     display: inline;
@@ -85,11 +85,11 @@ body{
     padding: 10px;
 }
 .h3{
-    1display: inline-block;
-    1background: #e1e1e1;
+    /*display: inline-block;*/
+    /*background: #e1e1e1;*/
+    /*border-left: 5px solid #ff7a7a;*/
+    /*padding-left: 5px;*/
     color: #646464;
-    1border-left: 5px solid #ff7a7a;
-    padding-left: 5px;
     font-size: 20px;
 }
 .footer_link{
