@@ -3,51 +3,77 @@
   <head>
     <meta charset="UTF-8">
     <title>Визитка</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
-  <body>
-    <header>
-      <h1>Альберт Сиразетдинов</h1>
-    </header> 
-    <main>
-      <img src="images/photo.jpg" alt="Моё фото" width="200">
-      <h2>Обо мне.</h2>
-      <p>Меня зовут Альберт. Мне 31 год. Живу в городе Альметьевск. Работаю нефтяным магнатом. <br> 
-      Свободное время провожу с семьей (они все ломают &#128163;, а я хожу за ними с отверткой и ремонтирую. &#128123;)</p>
-      <h2>Образование.</h2>
-      <p>
-        <b>Учебное заведение</b>: Альметьевский Государственный Институт Муниципальной Службы. <br> 
-        <b>Дата окончания</b>: июль 2014 года. <br>
-        <b>Факультет</b>: Психолого-педагогический. <br>
-        <b>Специальность</b>: Учитель Информатики. <br>
-        <b>Форма обучения</b>: Очная.
-      </p>
-      <h2>Опыт работы.</h2>
-      <p>
-        <b>Организация</b>: АО "Татойлгаз". <br> 
-        <b>Должность</b>: Оператор по добыче нефти и газа. <br>
-        <b>Период работы</b>: 05.2016 <br>
-        <b>Должностные обязанности</b>: Обход осмотр скважин. Обслуживание станка качалки и устьевой арматуры.
-      </p>
-      <h2>Хобби.</h2>
-      <p>Сборка компьютеров.</p>
-      <h2>Как я стал разработчиком</h2>
-      <ul>
-        <li>22 марта ознакомился с учебным курсом.</li>
-        <li>23 марта приступил к изучению модуля HTML.</li>
-        <li>28 марта закончил модуль HTML.</li>
-        <li>29 марта приступил к созданию визитки.</li>
-      </ul>
-    </main>
-    <footer>
-      <h3>Контакты:</h3>
-      <p>Телефон:
-        <a href="tel:+79172926593" title="Телефон">+79172926593</a>
-      </p>
-      <p>E-mail:
-        <a href="mailto:Ruxiwe@gmail.com" title="E-mail">Ruxiwe@gmail.com</a>
-      </p>
-      <a href="https://vk.com/id279108487" title="VK"><img src="images/vk.png" alt="VK" width="30" height="30"></a>
-      <a href="https://t.me/Ruxiwe" title="Телеграм"><img src="images/telegram.png" alt="Телеграм" width="30" height="30"></a>
-    </footer>
+  <body class="wraper">
+   <div>
+      <header>
+        <nav class="header_nav">
+          <ul class="header_list">
+            <li class="header_item">
+              <a href="#about" class="header_link">Обо мне</a>
+            <li class="header_item">
+              <a href="#education" class="header_link">Образование</a>
+            <li class="header_item">
+              <a href="#work" class="header_link">Опыт работы</a>
+            <li class="header_item">
+              <a href="#hobby" class="header_link">Хобби</a>
+            <li class="header_item">
+              <a href="#frontend" class="header_link">Как я стал разработчиком</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <h1 class="h1">Альберт Сиразетдинов</h1>
+        <div class="face_img">
+          <img src="images/photo.jpg" class="img" alt="Моё фото" width="300">
+        </div>
+        <div class="write_block">
+          <h2 class="h2" id="about">Обо мне.</h2>
+          <p class="p_text">Меня зовут Альберт. Мне 31 год. Живу в городе Альметьевск. Работаю нефтяным магнатом. <br>
+          Свободное время провожу с семьей (они все ломают &#128163;, а я хожу за ними с отверткой и ремонтирую. &#128123;)</p>
+          <h2 class="h2" id="education">Образование.</h2>
+          <p class="p_text">
+            <b>Учебное заведение</b>: Альметьевский Государственный Институт Муниципальной Службы. <br>
+            <b>Дата окончания</b>: июль 2014 года. <br>
+            <b>Факультет</b>: Психолого-педагогический. <br>
+            <b>Специальность</b>: Учитель Информатики. <br>
+            <b>Форма обучения</b>: Очная.
+          </p>
+          <h2 class="h2" id="work">Опыт работы.</h2>
+          <p class="p_text">
+            <b>Организация</b>: АО "Татойлгаз". <br>
+            <b>Должность</b>: Оператор по добыче нефти и газа. <br>
+            <b>Период работы</b>: 05.2016г. <br>
+            <b>Должностные обязанности</b>: Обход осмотр скважин. Обслуживание станка качалки и устьевой арматуры.
+          </p>
+          <h2 class="h2" id="hobby">Хобби.</h2>
+          <p class="p_text">Сборка компьютеров.</p>
+          <h2 class="h2" id="frontend">Как я стал разработчиком.</h2>
+          <ul class="frontend_list">
+            <li>22 марта ознакомился с учебным курсом.</li>
+            <li>23 марта приступил к изучению модуля HTML.</li>
+            <li>28 марта закончил модуль HTML.</li>
+            <li>29 марта приступил к созданию визитки.</li>
+          </ul>
+        </div>
+      </main>
+      <footer class="footer">
+        <h3 class="h3">Контакты:</h3>
+        <p>Телефон:
+          <a class="footer_link" href="tel:+79172926593" title="Телефон">+79172926593</a>
+        </p>
+        <p>E-mail:
+          <a class="footer_link" href="mailto:Ruxiwe@gmail.com" title="E-mail">Ruxiwe@gmail.com</a>
+        </p>
+        <div class="footer_icons">
+          <a href="https://vk.com/id279108487" title="VK"><img src="images/vk.png" alt="VK" width="30" height="30"></a>
+          <a href="https://t.me/Ruxiwe" title="Телеграм"><img src="images/telegram.png" alt="Телеграм" width="30" height="30"></a>
+        </div>
+
+      </footer>
+   </div>
   </body>
 </html>

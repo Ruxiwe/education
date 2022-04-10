@@ -1,6 +1,6 @@
-a[href="#Food"] {
-  background: orange;
-} 
-a[href*="ouse"] {
-  background: green;
+body {
+    background-color: red;
+}
+h1 {
+    color: white
 }
