@@ -1,6 +1,18 @@
-body {
-    background-color: red;
+.wrapper {
+    height: 20vh;
+    display: flex;
+    background-color: lightgray;
 }
-h1 {
-    color: white
+
+.red {
+    width: 70%;
+    height: 20%;
+    background: red;
+}
+
+.blue {
+    width: 70%;
+    height: 20%;
+    background: blue;
+    flex-shrink: 0;
 }
