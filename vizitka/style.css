@@ -1,17 +1,20 @@
 @font-face {
     src: url("./fonts/OpenSans-Regular.ttf");
-    font-family: 'OpenSans Regular';
+    font-family: 'OpenSans';
+    font-weight: normal;
 }
 @font-face {
     src: url("./fonts/RobotoSlab-Regular.ttf");
-    font-family: 'RobotoSlab serif Regular';
+    font-family: 'RobotoSlab';
+    font-weight: normal;
 }
 @font-face {
     src: url("./fonts/OpenSans-Bold.ttf");
-    font-family: 'OpenSans Bold';
+    font-family: 'OpenSans';
+    font-weight: bold;
 }
 body {
-    font-family: 'OpenSans Regular', "Arial", sans-serif;
+    font-family: 'OpenSans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
     display: flex;
@@ -53,7 +56,7 @@ body {
 }
 .h1 {
     margin-top: 20px;
-    font-family: 'RobotoSlab serif Regular', serif;
+    font-family: 'RobotoSlab', serif;
     color: #646464;
     font-size: 35px;
 }
@@ -61,7 +64,7 @@ body {
     display: flex;
     margin-top: 30px;
 }
-.img-face {
+.img_face {
     width: 350px;
     border: 2px solid #cdcdcd;
     border-radius: 10px;
@@ -71,7 +74,7 @@ body {
     padding-left: 20px;
 }
 .h2 {
-    font-family: 'RobotoSlab serif Regular', serif;
+    font-family: 'RobotoSlab', serif;
     display: inline-flex;
     background-color: #e1e1e1;
     color: #646464;
@@ -85,7 +88,7 @@ body {
     padding-left: 20px;
 }
 .strong {
-    font-family: 'OpenSans Bold', sans-serif;
+    font-weight: bold;
 }
 .frontend_list {
     margin-bottom: 10px;
@@ -101,7 +104,7 @@ body {
     border-top: 2px solid #e1e1e1;
 }
 .h3 {
-    font-family: 'RobotoSlab serif Regular', serif;
+    font-family: 'RobotoSlab', serif;
     color: #646464;
     font-size: 20px;
 }
